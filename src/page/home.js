@@ -60,14 +60,14 @@ export default class Page extends React.Component {
       </div>
 
       <div className="newbox" style={{ display: meonclick == 5 ? 'block' : 'none', animation: meonclick == 5 ? '0.5s linear 0s 1 normal forwards running zhuanquazn2' : meonclick == 6 ? '0.5s linear 0s 1 normal forwards running zhuanquazn' : 'none' }}>
-        <div className="val" style={{ bottom: '650px' }}>
+        <div className="val" style={{ bottom: '600px' }}>
           见面啦！<br />好家伙第一次见面，拉着你爬了个山 😓
         </div>
         <div className={`${'see'} ${'url6'}`} onClick={() => this.me()}></div>
       </div>
 
       <div className="newbox" style={{ display: meonclick == 6 ? 'block' : 'none', animation: meonclick == 6 ? '0.5s linear 0s 1 normal forwards running zhuanquazn2' : meonclick == 7 ? '0.5s linear 0s 1 normal forwards running zhuanquazn' : 'none' }}>
-        <div className="val" style={{ bottom: '650px' }}>
+        <div className="val" style={{ bottom: '600px' }}>
           第一次吃火锅，话不多，文静内敛，吃完溜达结束，九点安全送到。
         </div>
         <div className={`${'see'} ${'url5'}`} onClick={() => this.me()}></div>
